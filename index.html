@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>What's a "Hash"?</title>
+    <style>
+body {
+  text-align: center;
+}
+article {
+  width: 800px;
+  margin: 50px auto;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+td {
+  width: 50%;
+  padding: 1em;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+}
+label {
+  font-weight: bold;
+}
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>What's a "Hash"?</h1>
+      <table>
+        <tr>
+          <td>
+            <h2>A</h2>
+            <form>
+              <p><label>Input</label></p>
+              <textarea class=input></textarea>
+              <p><label>Digest</label></p>
+              <code class=digest>Enter text above.</code>
+              <p><label>Compared by Digest</label></p>
+              <p class=same>A and B are the same.</p>
+            </form>
+          </td>
+          <td>
+            <h2>B</h2>
+            <form>
+              <p><label>Input</label></p>
+              <textarea class=input></textarea>
+              <p><label>Digest</label></p>
+              <code class=digest>Enter text above.</code>
+              <p><label>Compared by Digest</label></p>
+              <p class=same>A and B are the same.</p>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </article>
+    <script src=script.js></script>
+  </body>
+</html>
